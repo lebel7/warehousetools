@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.proper.warehousetools"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="19"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <supports-screens android:requiresSmallestWidthDp="240" />
+    <!--android:theme="@android:style/Theme.Light"      ||  android:theme="@style/_lebelBlue"       android:label="@string/app_name" -->
+    <!--    <application android:name=".AppContext" android:label="@string/app_name" android:icon="@drawable/ic_launcher" android:theme="@style/_lebelBlue">    -->
+    <!--<application android:name=".AppContext" android:label="@string/app_name" android:icon="@drawable/ic_launcher" android:theme="@style/Theme.Base.AppCompat.Light.DarkActionBar">-->
+    <application android:name=".AppContext" android:label="@string/app_name" android:icon="@drawable/ic_launcher" android:theme="@style/CustomActionBarTheme">
+        <activity android:name=".ActLogin" android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <!--<activity android:name="com.android.barcode.BaseScannerActivityLegacy"/>-->
+        <!--<activity android:name=".binmove.BaseScannerActivity"/>-->
+        <activity android:name=".ActMain">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".ActLogin" />
+        </activity>
+        <activity android:name=".binmove.ui.speedata_mt02.ActBinMain" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".binmove.ui.chainway_c4000.ActBinMain" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".binmove.ui.ActBinDetails"/>
+        <activity android:name=".binmove.ui.ActBinItemSelection" android:label="Select Items to move"/>
+        <activity android:name=".binmove.ui.ActBinMoveMonitor"/>
+        <activity android:name=".binmove.ui.ActSingleDetails"/>
+        <activity android:name=".binmove.ui.speedata_mt02.ActQueryScan" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".binmove.ui.QueryView"/>
+        <activity android:name=".binmove.ui.speedata_mt02.ActSingleMain" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".binmove.ui.chainway_c4000.ActBinProductMain" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".binmove.ui.chainway_c4000.ActQueryScan" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".binmove.ui.chainway_c4000.ActSingleMain" android:windowSoftInputMode="stateHidden"/>
+        <!--<activity android:name=".binmove.BaseActivity"/>-->
+        <activity android:name=".binmove.ui.ActChooser"/>
+        <activity android:name=".binmove.ui.ActInfo"/>
+        <!--<activity android:name=".ActLogin" android:windowSoftInputMode="stateHidden"/>-->
+        <activity android:name=".binmove.ui.ActMoveChooser"/>
+        <activity android:name=".binmove.ui.ActProductMoveDialog"/>
+        <activity android:name=".binmove.ui.ActQueryChooser"/>
+        <activity android:name=".replein.ActReplenChooser"/>
+        <activity android:name=".replein.ui.chainway_C4000.ActReplenSelectBin"/>
+        <activity android:name=".replein.ui.speedata_mt02.ActReplenScan" android:launchMode = "singleInstance"/>
+        <activity android:name=".replein.ui.chainway_C4000.ActReplenManage" android:launchMode = "singleInstance"/>
+        <activity android:name=".replein.ui.chainway_C4000.ActReplenSelectProduct" android:launchMode = "singleInstance"/>
+        <activity android:name=".replein.ui.ActReplenManager" android:launchMode = "singleInstance"/>
+        <activity android:name=".replein.ui.chainway_C4000.ActReplenManageConfig" android:launchMode = "singleInstance"/>
+        <activity android:name=".binmove.ui.chainway_c4000.ActManageBinMove" android:launchMode = "singleInstance"/>
+        <activity android:name=".replein.ui.chainway_C4000.ActReplenCreateMiniMove" android:launchMode = "singleInstance"/>
+        <activity android:name=".goodsin.ui.ActGoodsInManager" android:screenOrientation="landscape"/>
+        <activity android:name=".goodsin.ui.ActGoodsInInfoDisplay" android:screenOrientation="landscape"/>
+        <activity android:name=".goodsin.ui.ActGoodsInProvideInfo" android:screenOrientation="landscape"/>
+        <activity android:name=".goodsin.ui.ActGoodsInReceive" android:screenOrientation="landscape"/>
+        <activity android:name=".goodsin.ui.ActGoodsInBoardScan" android:windowSoftInputMode="stateHidden" android:screenOrientation="landscape"/>
+        <activity android:name=".goodsin.ui.ActGoodsInStockHeaderProduct" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".binmove.ui.speedata_mt02.ActSingleMove" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".ActMainLegacy"/>
+        <activity android:name=".goodsin.ui.ActGoodsInPhotoDisplay"/>
+    </application>
+</manifest>

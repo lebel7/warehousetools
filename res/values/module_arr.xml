@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="defaultname">
+        <item>Bin Move</item>
+        <item>Goods-In</item>
+        <item>Picking</item>
+        <item>Replenishment</item>
+        <item>Settings</item>
+    </string-array>
+
+    <string-array name="defaulticon">
+        <item>b</item>
+        <item>g</item>
+        <item>p</item>
+        <item>r</item>
+        <item>s</item>
+    </string-array>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../AndroidSupportLibrary/zxing-master/android.iml" filepath="$PROJECT_DIR$/../AndroidSupportLibrary/zxing-master/android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../AndroidSupportLibrary/zxing-master/android-core.iml" filepath="$PROJECT_DIR$/../AndroidSupportLibrary/zxing-master/android-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../AndroidSupportLibrary/zxing-master/android-integration.iml" filepath="$PROJECT_DIR$/../AndroidSupportLibrary/zxing-master/android-integration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../AndroidSupportLibrary/v7/appcompat/android-support-v7-appcompat.iml" filepath="$PROJECT_DIR$/../AndroidSupportLibrary/v7/appcompat/android-support-v7-appcompat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../AndroidSupportLibrary/zxing-master/androidtest.iml" filepath="$PROJECT_DIR$/../AndroidSupportLibrary/zxing-master/androidtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../AndroidSupportLibrary/zxing-master/core.iml" filepath="$PROJECT_DIR$/../AndroidSupportLibrary/zxing-master/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../AndroidSupportLibrary/zxing-master/glass.iml" filepath="$PROJECT_DIR$/../AndroidSupportLibrary/zxing-master/glass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../AndroidSupportLibrary/zxing-master/javase.iml" filepath="$PROJECT_DIR$/../AndroidSupportLibrary/zxing-master/javase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/warehousetools.iml" filepath="$PROJECT_DIR$/warehousetools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../AndroidSupportLibrary/zxing-master/zxing-parent.iml" filepath="$PROJECT_DIR$/../AndroidSupportLibrary/zxing-master/zxing-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../AndroidSupportLibrary/zxing-master/zxing.appspot.com.iml" filepath="$PROJECT_DIR$/../AndroidSupportLibrary/zxing-master/zxing.appspot.com.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../AndroidSupportLibrary/zxing-master/zxingorg.iml" filepath="$PROJECT_DIR$/../AndroidSupportLibrary/zxing-master/zxingorg.iml" />
+    </modules>
+  </component>
+</project>
+
